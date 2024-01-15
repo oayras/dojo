@@ -9,8 +9,8 @@
       "enabled": true
     },
     {
-      "groupName": "gitshub",
-      "matchPackageNames": ["github.com"]
+      "matchFileNames": [".github/**"],
+      "groupName": "github-actions"
     }
   ]
 }
