@@ -5,7 +5,7 @@
   ],
   "packageRules": [
     {
-      "matchRepositories": ["*github.com*"],
+      "matchPackageNames": ["github.com"],
       "enabled": true
     }
   ]
