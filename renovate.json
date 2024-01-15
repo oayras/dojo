@@ -7,6 +7,10 @@
     {
       "matchPackageNames": ["github.com"],
       "enabled": true
+    },
+    {
+      "groupName": "gitshub",
+      "matchPackageNames": ["github.com"]
     }
   ]
 }
