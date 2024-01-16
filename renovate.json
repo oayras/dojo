@@ -3,13 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": [ "*" ],
-      "excludePackagePatterns": [
-        "strum"
-      ],
-      "groupName": "deps"
-    },
-  ]
+  "git-submodules": {
+    "enabled": true
+  }
 }
