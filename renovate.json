@@ -8,4 +8,5 @@
       "matchHost": "https://github.com/starkware-libs/blockifier",
       "token": "$TOKEN"
     }
+  ]
 }
