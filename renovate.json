@@ -5,5 +5,17 @@
   ],
   "git-submodules": {
     "enabled": true
-  }
+  },
+  "regexManagers": [
+    {
+      "fileMatch": [
+        ".*toml$"
+      ],
+      "matchStrings": [
+        "(?<currentValue>v\\d+\\.\\d+\\.\\d+)"
+      ],
+      "depNameTemplate": "depParaCargo",
+      "datasourceTemplate": "github-tags"
+    },
+  ]
 }
