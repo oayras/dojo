@@ -5,9 +5,11 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["cairo"],
-      "matchManagers": ["cargo"],
-      "enabled": false
-    }
+      "matchPackagePatterns": [ "*" ],
+      "excludePackagePatterns": [
+        "strum"
+      ],
+      "groupName": "deps"
+    },
   ]
 }
