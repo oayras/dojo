@@ -7,6 +7,10 @@
     {
       "matchHost": "https://github.com/starkware-libs/blockifier",
       "token": "$TOKEN"
+    },
+    {
+      "matchHost": "https://github.com/software-mansion/scarb",
+      "token": "$TOKEN"
     }
   ]
 }
