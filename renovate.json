@@ -3,14 +3,9 @@
   "extends": [
     "config:recommended"
   ],
-  "packageRules": [
+  "hostRules": [
     {
-      "matchPackageNames": ["github.com"],
-      "enabled": true
-    },
-    {
-      "matchFileNames": [".github/**"],
-      "groupName": "github-actions"
+      "matchHost": "https://github.com/starkware-libs/blockifier",
+      "token": "$TOKEN"
     }
-  ]
 }
