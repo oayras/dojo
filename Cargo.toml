@@ -45,7 +45,7 @@ inherits = "release"
 lto = "fat"
 
 [workspace.dependencies]
-anyhow = "1.0.75"
+anyhow = "1.0.82"
 assert_matches = "1.5.0"
 async-trait = "0.1.68"
 base64 = "0.21.2"
