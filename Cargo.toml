@@ -47,7 +47,7 @@ lto = "fat"
 [workspace.dependencies]
 anyhow = "1.0.75"
 assert_matches = "1.5.0"
-async-trait = "0.1.68"
+async-trait = "0.1.80"
 base64 = "0.21.2"
 blockifier = { git = "https://github.com/starkware-libs/blockifier", tag = "v0.4.0-rc9.2" }
 cairo-lang-casm = "2.4.0"
