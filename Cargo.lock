@@ -3578,7 +3578,7 @@ checksum = "1d930c203dd0b6ff06e0201a4a2fe9149b43c684fd4420555b26d21b1a02956f"
 dependencies = [
  "futures-core",
  "lock_api",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
 ]
 
 [[package]]
@@ -3788,7 +3788,7 @@ dependencies = [
  "gix-worktree-state",
  "gix-worktree-stream",
  "once_cell",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "regex",
  "signal-hook",
  "smallvec",
@@ -3998,7 +3998,7 @@ dependencies = [
  "jwalk",
  "libc",
  "once_cell",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "prodash",
  "sha1_smol",
  "thiserror",
@@ -4065,7 +4065,7 @@ checksum = "feb61880816d7ec4f0b20606b498147d480860ddd9133ba542628df2f548d3ca"
 dependencies = [
  "gix-hash",
  "hashbrown 0.14.3",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
 ]
 
 [[package]]
@@ -4188,7 +4188,7 @@ dependencies = [
  "gix-pack",
  "gix-path",
  "gix-quote",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "tempfile",
  "thiserror",
 ]
@@ -4208,7 +4208,7 @@ dependencies = [
  "gix-path",
  "gix-tempfile",
  "memmap2",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "smallvec",
  "thiserror",
  "uluru",
@@ -4262,7 +4262,7 @@ checksum = "4967b921304a5355e65a6257280eddf6e0f9ce3df111256531460adca3771305"
 dependencies = [
  "gix-command",
  "gix-config-value",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "rustix 0.38.28",
  "thiserror",
 ]
@@ -4400,7 +4400,7 @@ dependencies = [
  "gix-fs",
  "libc",
  "once_cell",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "signal-hook",
  "signal-hook-registry",
  "tempfile",
@@ -4513,7 +4513,7 @@ dependencies = [
  "gix-object",
  "gix-path",
  "gix-traverse",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "thiserror",
 ]
 
@@ -5335,7 +5335,7 @@ dependencies = [
  "globset",
  "hyper",
  "jsonrpsee-types",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "rand",
  "rustc-hash",
  "serde",
@@ -5491,7 +5491,7 @@ dependencies = [
  "katana-primitives",
  "katana-provider",
  "lazy_static",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "rand",
  "serde",
  "serde_json",
@@ -5515,7 +5515,7 @@ dependencies = [
  "criterion",
  "katana-primitives",
  "page_size",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "postcard",
  "reth-libmdbx",
  "serde",
@@ -5535,7 +5535,7 @@ dependencies = [
  "convert_case 0.6.0",
  "katana-primitives",
  "katana-provider",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "starknet",
  "starknet_api",
  "tokio",
@@ -5572,7 +5572,7 @@ dependencies = [
  "katana-primitives",
  "katana-runner",
  "lazy_static",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "rand",
  "rstest",
  "rstest_reuse",
@@ -6627,9 +6627,9 @@ dependencies = [
 
 [[package]]
 name = "parking_lot"
-version = "0.12.1"
+version = "0.12.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3742b2c103b9f06bc9fff0a37ff4912935851bee6d36f3c02bcc755bcfec228f"
+checksum = "f1bf18183cf54e8d6059647fc3063646a1801cf30896933ec2311622cc4b9a27"
 dependencies = [
  "lock_api",
  "parking_lot_core 0.9.9",
@@ -7603,7 +7603,7 @@ dependencies = [
  "derive_more",
  "indexmap 2.1.0",
  "libc",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "reth-mdbx-sys",
  "thiserror",
 ]
@@ -8360,7 +8360,7 @@ dependencies = [
  "futures",
  "lazy_static",
  "log",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "serial_test_derive",
 ]
 
@@ -9139,7 +9139,7 @@ checksum = "f91138e76242f575eb1d3b38b4f1362f10d3a43f47d182a5b359af488a02293b"
 dependencies = [
  "new_debug_unreachable",
  "once_cell",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "phf_shared 0.10.0",
  "precomputed-hash",
 ]
@@ -9492,7 +9492,7 @@ dependencies = [
  "libc",
  "mio",
  "num_cpus",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "pin-project-lite",
  "signal-hook-registry",
  "socket2 0.5.5",
@@ -9816,7 +9816,7 @@ dependencies = [
  "dojo-world",
  "futures",
  "futures-util",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "prost 0.11.9",
  "prost 0.12.3",
  "serde",
@@ -9917,7 +9917,7 @@ dependencies = [
  "futures-util",
  "hex",
  "hyper",
- "parking_lot 0.12.1",
+ "parking_lot 0.12.3",
  "prost 0.11.9",
  "prost 0.12.3",
  "rand",
